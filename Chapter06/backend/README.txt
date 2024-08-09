@@ -1,0 +1,1 @@
+FastAPI authentication application with fake MongoDB, uses dictionary as a database

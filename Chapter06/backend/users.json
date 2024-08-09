@@ -1,0 +1,34 @@
+{
+    "users": [
+        {
+            "username": "marko",
+            "password": "$2b$12$owWXcY5KgI9s6Rdfjcpx7eXaZOMWf8NaxN.SoLJ4h8O.xzFpRqEee",
+            "id": "45cd212b-71eb-42b4-9d06-a74f2609764b"
+        },
+        {
+            "username": "darius",
+            "password": "$2b$12$e5udCabbENuUPsCrtlt/EuVMwzrTHNzKguFvJ0Fjmr1f06PJDuTOK",
+            "id": "da38188c-5819-4be3-83e0-bc35c1ace748"
+        },
+        {
+            "username": "kokos",
+            "password": "$2b$12$lMUgstvxJzohpI4JHRH8fOI/xeHuL8fuKjlvnXHi7RP64NLo0fbSq",
+            "id": "bdfc5531-e18b-4369-b4a7-8ae36ad6184d"
+        },
+        {
+            "username": "maksa",
+            "password": "$2b$12$wI2UpowayBW.bnHvl/agye7QMtlzc2BVr5ke5JwF9Xsa4RsEPjd7S",
+            "id": "05fb14cd-5b69-4283-bcc2-00843a3520bd"
+        },
+        {
+            "username": "tanja",
+            "password": "$2b$12$PwAewPDrL/8g8kmoPLug7.KdKsTjKo5VR0byJgFxalpVmpOq2AaKa",
+            "id": "6a44715c-9962-4a0b-af5f-63be871ed752"
+        },
+        {
+            "username": "zorex",
+            "password": "$2b$12$8W0GOZsZGWspr8pO8aG0ZO4fuawKoRWNih.floxR9ynkkbZ4B4aFe",
+            "id": "e4a5eec0-656d-4347-9b21-a473ae6b2739"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+fastapi==0.111.0
+motor==3.4.0
+uvicorn==0.29.0
+httpie==3.2.2
+cloudinary==1.40.0
+pydantic-settings==2.2.1
+python-multipart==0.0.9
+passlib==1.7.4
+pyjwt==2.8.0
+bcrypt==4.0.1

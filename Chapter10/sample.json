@@ -1,0 +1,877 @@
+[
+    {
+        "brand": "Ford",
+        "make": "Focus",
+        "year": 2015,
+        "cm3": 1596,
+        "price": 9500,
+        "km": 75000,
+        "description": "The Ford Focus is your trusty sidekick for urban adventures, blending style with practicality in a compact package.",
+        "pros": [
+            "Great fuel efficiency",
+            "Comfortable ride",
+            "Affordable maintenance",
+            "Good handling",
+            "Spacious interior"
+        ],
+        "cons": [
+            "Limited rear visibility",
+            "Average acceleration",
+            "Basic interior materials",
+            "Limited tech features",
+            "Road noise"
+        ]
+    },
+    {
+        "brand": "Fiat",
+        "make": "500",
+        "year": 2018,
+        "cm3": 1242,
+        "price": 8000,
+        "km": 45000,
+        "description": "The Fiat 500 is a charming little car that adds a touch of Italian flair to your daily drive, perfect for city living.",
+        "pros": [
+            "Compact size",
+            "Stylish design",
+            "Easy to park",
+            "Good fuel economy",
+            "Affordable"
+        ],
+        "cons": [
+            "Limited cargo space",
+            "Small rear seats",
+            "Modest performance",
+            "Average build quality",
+            "Highway noise"
+        ]
+    },
+    {
+        "brand": "Peugeot",
+        "make": "208",
+        "year": 2017,
+        "cm3": 1560,
+        "price": 9500,
+        "km": 60000,
+        "description": "The Peugeot 208 is a small car with a big personality, offering a delightful driving experience with a French twist.",
+        "pros": [
+            "Modern design",
+            "Efficient engines",
+            "Comfortable interior",
+            "Advanced tech",
+            "Good safety features"
+        ],
+        "cons": [
+            "Limited rear space",
+            "Firm ride",
+            "Higher maintenance costs",
+            "Complex infotainment",
+            "Average resale value"
+        ]
+    },
+    {
+        "brand": "Audi",
+        "make": "A3",
+        "year": 2016,
+        "cm3": 1395,
+        "price": 15000,
+        "km": 70000,
+        "description": "The Audi A3 is the epitome of elegance and performance, turning heads while providing a luxurious ride.",
+        "pros": [
+            "Premium interior",
+            "Strong performance",
+            "Advanced technology",
+            "Smooth ride",
+            "High safety rating"
+        ],
+        "cons": [
+            "Expensive maintenance",
+            "Limited rear space",
+            "High insurance costs",
+            "Firm suspension",
+            "Complex infotainment system"
+        ]
+    },
+    {
+        "brand": "Citroen",
+        "make": "C3",
+        "year": 2019,
+        "cm3": 1199,
+        "price": 12000,
+        "km": 30000,
+        "description": "The Citroen C3 is a quirky and comfortable car that brings a splash of color and fun to your daily commute.",
+        "pros": [
+            "Unique design",
+            "Comfortable ride",
+            "Good fuel efficiency",
+            "Affordable price",
+            "Spacious interior"
+        ],
+        "cons": [
+            "Mediocre performance",
+            "Basic interior materials",
+            "Limited tech features",
+            "Average handling",
+            "Small boot space"
+        ]
+    },
+    {
+        "brand": "Volkswagen",
+        "make": "Golf",
+        "year": 2014,
+        "cm3": 1395,
+        "price": 10000,
+        "km": 90000,
+        "description": "The Volkswagen Golf is a classic hatchback that combines practicality with a dash of sporty flair.",
+        "pros": [
+            "Solid build quality",
+            "Efficient engines",
+            "Comfortable ride",
+            "Spacious interior",
+            "Good resale value"
+        ],
+        "cons": [
+            "Expensive to maintain",
+            "Dated infotainment system",
+            "Average performance",
+            "Firm suspension",
+            "Limited standard features"
+        ]
+    },
+    {
+        "brand": "Ford",
+        "make": "Fiesta",
+        "year": 2016,
+        "cm3": 998,
+        "price": 8500,
+        "km": 65000,
+        "description": "The Ford Fiesta is a nimble and fun-to-drive car that's perfect for zipping through city streets.",
+        "pros": [
+            "Excellent handling",
+            "Fuel efficient",
+            "Compact size",
+            "Affordable maintenance",
+            "Modern design"
+        ],
+        "cons": [
+            "Limited rear space",
+            "Basic interior materials",
+            "Average acceleration",
+            "Road noise",
+            "Small boot space"
+        ]
+    },
+    {
+        "brand": "Fiat",
+        "make": "Punto",
+        "year": 2017,
+        "cm3": 1242,
+        "price": 7000,
+        "km": 80000,
+        "description": "The Fiat Punto is a practical and stylish car that offers a great balance between comfort and efficiency.",
+        "pros": [
+            "Good fuel economy",
+            "Spacious interior",
+            "Affordable price",
+            "Easy to drive",
+            "Compact size"
+        ],
+        "cons": [
+            "Average performance",
+            "Basic interior",
+            "Limited tech features",
+            "Firm ride",
+            "Average build quality"
+        ]
+    },
+    {
+        "brand": "Peugeot",
+        "make": "308",
+        "year": 2018,
+        "cm3": 1560,
+        "price": 11000,
+        "km": 50000,
+        "description": "The Peugeot 308 is a refined and stylish hatchback that brings a touch of sophistication to everyday driving.",
+        "pros": [
+            "Modern design",
+            "Comfortable ride",
+            "Efficient engines",
+            "Advanced safety features",
+            "Spacious interior"
+        ],
+        "cons": [
+            "Higher maintenance costs",
+            "Limited rear visibility",
+            "Firm suspension",
+            "Complex infotainment",
+            "Average resale value"
+        ]
+    },
+    {
+        "brand": "Audi",
+        "make": "A4",
+        "year": 2015,
+        "cm3": 1984,
+        "price": 17000,
+        "km": 80000,
+        "description": "The Audi A4 is a premium sedan that exudes class and performance, making every journey a pleasure.",
+        "pros": [
+            "Luxurious interior",
+            "Strong performance",
+            "Advanced technology",
+            "Smooth ride",
+            "High safety rating"
+        ],
+        "cons": [
+            "Expensive maintenance",
+            "High insurance costs",
+            "Limited rear space",
+            "Firm suspension",
+            "Complex infotainment system"
+        ]
+    },
+    {
+        "brand": "Citroen",
+        "make": "C4",
+        "year": 2016,
+        "cm3": 1560,
+        "price": 9500,
+        "km": 70000,
+        "description": "The Citroen C4 is a comfortable and practical car that adds a touch of French flair to your daily drive.",
+        "pros": [
+            "Comfortable ride",
+            "Good fuel efficiency",
+            "Spacious interior",
+            "Unique design",
+            "Affordable price"
+        ],
+        "cons": [
+            "Average performance",
+            "Basic interior materials",
+            "Limited tech features",
+            "Firm suspension",
+            "Small boot space"
+        ]
+    },
+    {
+        "brand": "Volkswagen",
+        "make": "Passat",
+        "year": 2017,
+        "cm3": 1968,
+        "price": 18000,
+        "km": 60000,
+        "description": "The Volkswagen Passat is a sophisticated and reliable sedan that offers a perfect blend of comfort and performance.",
+        "pros": [
+            "Spacious interior",
+            "Solid build quality",
+            "Efficient engines",
+            "Comfortable ride",
+            "Advanced tech features"
+        ],
+        "cons": [
+            "Expensive to maintain",
+            "Average performance",
+            "Firm suspension",
+            "Complex infotainment",
+            "High insurance costs"
+        ]
+    },
+    {
+        "brand": "Ford",
+        "make": "Mondeo",
+        "year": 2016,
+        "cm3": 1999,
+        "price": 12000,
+        "km": 85000,
+        "description": "The Ford Mondeo is a reliable and spacious sedan that makes every journey comfortable and enjoyable.",
+        "pros": [
+            "Spacious interior",
+            "Comfortable ride",
+            "Good fuel efficiency",
+            "Solid build quality",
+            "Advanced safety features"
+        ],
+        "cons": [
+            "Limited rear visibility",
+            "Average performance",
+            "Basic interior materials",
+            "Firm suspension",
+            "Complex infotainment"
+        ]
+    },
+    {
+        "brand": "Fiat",
+        "make": "Tipo",
+        "year": 2019,
+        "cm3": 1368,
+        "price": 13000,
+        "km": 30000,
+        "description": "The Fiat Tipo is a practical and stylish car that offers great value for money, perfect for families.",
+        "pros": [
+            "Spacious
+
+ interior","Good fuel efficiency",
+            "Affordable price",
+            "Comfortable ride",
+            "Modern design"
+        ],
+        "cons": [
+            "Average performance",
+            "Basic interior materials",
+            "Limited tech features",
+            "Firm suspension",
+            "Average build quality"
+        ]
+    },
+    {
+        "brand": "Peugeot",
+        "make": "3008",
+        "year": 2018,
+        "cm3": 1598,
+        "price": 20000,
+        "km": 40000,
+        "description": "The Peugeot 3008 is a stylish and versatile SUV that offers a perfect blend of comfort, space, and technology.",
+        "pros": [
+            "Modern design",
+            "Spacious interior",
+            "Advanced tech features",
+            "Comfortable ride",
+            "Good fuel efficiency"
+        ],
+        "cons": [
+            "Higher maintenance costs",
+            "Limited rear visibility",
+            "Firm suspension",
+            "Complex infotainment",
+            "Average resale value"
+        ]
+    },
+    {
+        "brand": "Audi",
+        "make": "Q3",
+        "year": 2017,
+        "cm3": 1395,
+        "price": 25000,
+        "km": 50000,
+        "description": "The Audi Q3 is a premium compact SUV that offers luxury, performance, and versatility in a stylish package.",
+        "pros": [
+            "Luxurious interior",
+            "Strong performance",
+            "Advanced technology",
+            "Smooth ride",
+            "High safety rating"
+        ],
+        "cons": [
+            "Expensive maintenance",
+            "High insurance costs",
+            "Limited rear space",
+            "Firm suspension",
+            "Complex infotainment system"
+        ]
+    },
+    {
+        "brand": "Citroen",
+        "make": "C5 Aircross",
+        "year": 2019,
+        "cm3": 1499,
+        "price": 22000,
+        "km": 25000,
+        "description": "The Citroen C5 Aircross is a comfortable and spacious SUV that brings a touch of French elegance to your adventures.",
+        "pros": [
+            "Comfortable ride",
+            "Spacious interior",
+            "Unique design",
+            "Advanced tech features",
+            "Good fuel efficiency"
+        ],
+        "cons": [
+            "Average performance",
+            "Basic interior materials",
+            "Limited rear visibility",
+            "Firm suspension",
+            "Complex infotainment"
+        ]
+    },
+    {
+        "brand": "Volkswagen",
+        "make": "Tiguan",
+        "year": 2016,
+        "cm3": 1968,
+        "price": 23000,
+        "km": 40000,
+        "description": "The Volkswagen Tiguan is a stylish and versatile SUV that offers a great blend of comfort, space, and technology.",
+        "pros": [
+            "Solid build quality",
+            "Comfortable ride",
+            "Spacious interior",
+            "Efficient engines",
+            "Advanced tech features"
+        ],
+        "cons": [
+            "Expensive to maintain",
+            "Average performance",
+            "Firm suspension",
+            "Complex infotainment",
+            "High insurance costs"
+        ]
+    },
+    {
+        "brand": "Ford",
+        "make": "Kuga",
+        "year": 2017,
+        "cm3": 1498,
+        "price": 21000,
+        "km": 35000,
+        "description": "The Ford Kuga is a practical and stylish SUV that offers great value for money, perfect for families.",
+        "pros": [
+            "Spacious interior",
+            "Comfortable ride",
+            "Good fuel efficiency",
+            "Modern design",
+            "Advanced safety features"
+        ],
+        "cons": [
+            "Average performance",
+            "Basic interior materials",
+            "Limited tech features",
+            "Firm suspension",
+            "Average build quality"
+        ]
+    },
+    {
+        "brand": "Fiat",
+        "make": "500X",
+        "year": 2018,
+        "cm3": 1368,
+        "price": 18000,
+        "km": 30000,
+        "description": "The Fiat 500X is a charming and versatile compact SUV that adds a touch of Italian style to your daily drive.",
+        "pros": [
+            "Compact size",
+            "Stylish design",
+            "Good fuel economy",
+            "Comfortable ride",
+            "Affordable"
+        ],
+        "cons": [
+            "Limited cargo space",
+            "Small rear seats",
+            "Modest performance",
+            "Average build quality",
+            "Highway noise"
+        ]
+    },
+    {
+        "brand": "Peugeot",
+        "make": "5008",
+        "year": 2019,
+        "cm3": 1598,
+        "price": 25000,
+        "km": 20000,
+        "description": "The Peugeot 5008 is a stylish and spacious SUV that offers a perfect blend of comfort, space, and technology.",
+        "pros": [
+            "Modern design",
+            "Spacious interior",
+            "Advanced tech features",
+            "Comfortable ride",
+            "Good fuel efficiency"
+        ],
+        "cons": [
+            "Higher maintenance costs",
+            "Limited rear visibility",
+            "Firm suspension",
+            "Complex infotainment",
+            "Average resale value"
+        ]
+    },
+    {
+        "brand": "Audi",
+        "make": "Q5",
+        "year": 2017,
+        "cm3": 1968,
+        "price": 30000,
+        "km": 50000,
+        "description": "The Audi Q5 is a premium mid-size SUV that offers luxury, performance, and versatility in a stylish package.",
+        "pros": [
+            "Luxurious interior",
+            "Strong performance",
+            "Advanced technology",
+            "Smooth ride",
+            "High safety rating"
+        ],
+        "cons": [
+            "Expensive maintenance",
+            "High insurance costs",
+            "Limited rear space",
+            "Firm suspension",
+            "Complex infotainment system"
+        ]
+    },
+    {
+        "brand": "Citroen",
+        "make": "Berlingo",
+        "year": 2016,
+        "cm3": 1560,
+        "price": 14000,
+        "km": 60000,
+        "description": "The Citroen Berlingo is a practical and spacious MPV that offers great versatility for families and businesses.",
+        "pros": [
+            "Spacious interior",
+            "Good fuel efficiency",
+            "Practical design",
+            "Affordable price",
+            "Comfortable ride"
+        ],
+        "cons": [
+            "Average performance",
+            "Basic interior materials",
+            "Limited tech features",
+            "Firm suspension",
+            "Average build quality"
+        ]
+    },
+    {
+        "brand": "Volkswagen",
+        "make": "Touran",
+        "year": 2017,
+        "cm3": 1598,
+        "price": 19000,
+        "km": 40000,
+        "description": "The Volkswagen Touran is a practical and spacious MPV that offers great versatility for families and businesses.",
+        "pros": [
+            "Solid build quality",
+            "Comfortable ride",
+            "Spacious interior",
+            "Efficient engines",
+            "Advanced tech features"
+        ],
+        "cons": [
+            "Expensive to maintain",
+            "Average performance",
+            "Firm suspension",
+            "Complex infotainment",
+            "High insurance costs"
+        ]
+    },
+    {
+        "brand": "Ford",
+        "make": "Galaxy",
+        "year": 2016,
+        "cm3": 1999,
+        "price": 20000,
+        "km": 75000,
+        "description": "The Ford Galaxy is a spacious and practical MPV that offers great versatility for families and businesses.",
+        "pros": [
+            "Spacious interior",
+            "Comfortable ride",
+            "Good fuel efficiency",
+            "Solid build quality",
+            "Advanced safety features"
+        ],
+        "cons": [
+            "Limited rear visibility",
+            "Average performance",
+            "Basic interior materials",
+            "Firm suspension",
+            "Complex infotainment"
+        ]
+    },
+    {
+        "brand": "Fiat",
+        "make": "Ducato",
+        "year": 2019,
+        "cm3": 2287,
+        "price": 22000,
+        "km": 50000,
+        "description": "The Fiat Ducato is a versatile and reliable van that offers great space and practicality for businesses.",
+        "pros": [
+            "Spacious interior",
+            "Good fuel efficiency",
+            "Practical design",
+            "Affordable price",
+            "Comfortable ride"
+        ],
+        "cons": [
+            "Average performance",
+            "Basic interior materials",
+            "Limited tech features",
+            "Firm suspension",
+            "Average build quality"
+        ]
+    },
+    {
+        "brand": "Peugeot",
+        "make": "Traveller",
+        "year": 2018,
+        "cm3": 1997,
+        "price": 30000,
+        "km": 30000,
+        "description": "The Peugeot Traveller is a spacious and comfortable MPV that offers great versatility for families and businesses.",
+        "pros": [
+            "Modern design",
+            "Spacious interior",
+            "Advanced tech features",
+            "Comfortable ride",
+            "Good fuel efficiency"
+        ],
+        "cons": [
+            "Higher maintenance costs",
+            "Limited rear visibility",
+            "Firm suspension",
+            "Complex infotainment",
+            "Average resale value"
+        ]
+    },
+    {
+        "brand": "Audi",
+        "make": "A6",
+        "year": 2016,
+        "cm3": 1968,
+        "price": 27000,
+        "km": 80000,
+        "description": "The Audi A6 is a premium executive sedan that offers luxury, performance, and advanced technology in a stylish package.",
+        "pros": [
+            "Luxurious interior",
+            "Strong performance",
+            "Advanced technology",
+            "Smooth ride",
+            "High safety rating"
+        ],
+        "cons": [
+            "Expensive maintenance",
+            "High insurance costs",
+            "Limited rear space",
+            "Firm suspension",
+            "Complex infotainment system"
+        ]
+    },
+    {
+        "brand": "Citroen",
+        "make": "Spacetourer",
+        "year": 2019,
+        "cm3": 1997,
+        "price": 35000,
+        "km": 20000,
+        "description": "The Citroen Spacetourer is a spacious and comfortable MPV that offers great versatility for families and businesses.",
+        "pros": [
+            "Comfortable ride",
+            "Spacious interior",
+            "Unique design",
+            "Advanced tech features",
+            "Good fuel efficiency"
+        ],
+        "cons": [
+            "Average performance",
+            "Basic interior materials",
+            "Limited rear visibility",
+            "Firm suspension",
+            "Complex infotainment"
+        ]
+    },
+    {
+        "brand": "Volkswagen",
+        "make": "Caddy",
+        "year": 2017,
+        "cm3": 1598,
+        "price": 20000,
+        "km": 40000,
+        "description": "The Volkswagen Caddy is a practical and versatile van that offers great space and reliability for businesses.",
+        "pros": [
+            "Solid build quality",
+            "Comfortable ride",
+            "Spacious interior",
+            "Efficient engines",
+            "Advanced tech features"
+        ],
+        "cons": [
+            "Expensive to maintain",
+            "Average performance",
+            "Firm suspension",
+            "Complex infotainment",
+            "High insurance costs"
+        ]
+    },
+    {
+        "brand": "Ford",
+        "make": "Transit",
+        "year": 2018,
+        "cm3": 1995,
+        "price": 25000,
+        "km": 50000,
+        "description": "The Ford Transit is a versatile and reliable van that offers great space and practicality for businesses.",
+        "pros": [
+            "Spacious interior",
+            "Good fuel efficiency",
+            "Practical design",
+            "Affordable price",
+            "Comfortable ride"
+        ],
+        "cons": [
+            "Average performance",
+            "Basic interior materials",
+            "Limited tech features",
+            "Firm suspension",
+            "Average build quality"
+        ]
+    },
+    {
+        "brand": "Fiat",
+        "make": "Panda",
+        "year": 2017,
+        "cm3": 1242,
+        "price": 6000,
+        "km": 80000,
+        "description": "The Fiat Panda is a practical and efficient city car that offers great value for money and easy maneuverability.",
+        "pros": [
+            "Compact size",
+            "Good fuel economy",
+            "Affordable price",
+            "Easy to park",
+            "Simple design"
+        ],
+        "cons": [
+            "Limited cargo space",
+            "Small rear seats",
+            "Modest performance",
+            "Average build quality",
+            "Highway noise"
+        ]
+    },
+    {
+        "brand": "Peugeot",
+        "make": "108",
+        "year": 2018,
+        "cm3": 998,
+        "price": 7000,
+        "km": 60000,
+        "description": "The Peugeot 108 is a charming and compact city car that offers great fuel efficiency and easy maneuverability.",
+        "pros": [
+            "Compact size",
+            "Stylish design",
+            "Good fuel economy",
+            "Easy to park",
+            "Affordable"
+        ],
+        "cons": [
+            "Limited cargo space",
+            "Small rear seats",
+            "Modest performance",
+            "Average build quality",
+            "Highway noise"
+        ]
+    },
+    {
+        "brand": "Audi",
+        "make": "A1",
+        "year": 2016,
+        "cm3": 999,
+        "price": 12000,
+        "km": 60000,
+        "description": "The Audi A1 is a premium compact car that offers luxury, performance, and advanced technology in a small package.",
+        "pros": [
+            "Luxurious interior",
+            "Strong performance",
+            "Advanced technology",
+            "Smooth ride",
+            "High safety rating"
+        ],
+        "cons": [
+            "Expensive maintenance",
+            "High insurance costs",
+            "Limited rear space",
+            "Firm suspension",
+            "Complex infotainment system"
+        ]
+    },
+    {
+        "brand": "Citroen",
+        "make": "C1",
+        "year": 2017,
+        "cm3": 998,
+        "price": 6000,
+        "km": 80000,
+        "description": "The Citroen C1 is a practical and efficient city car that offers great value for money and easy maneuverability.",
+        "pros": [
+            "Compact size",
+            "Good fuel economy",
+            "Affordable price",
+            "Easy to park",
+            "Simple design"
+        ],
+        "cons": [
+            "Limited cargo space",
+            "Small rear seats",
+            "Modest performance",
+            "Average build quality",
+            "Highway noise"
+        ]
+    },
+    {
+        "brand": "Volkswagen",
+        "make": "Up!",
+        "year": 2018,
+        "cm3": 999,
+        "price": 9000,
+        "km": 40000,
+        "description": "The Volkswagen Up! is a compact and efficient city car that offers great fuel economy and easy maneuverability.",
+        "pros": [
+            "Compact size",
+            "Good fuel economy",
+            "Stylish design",
+            "Easy to park",
+            "Affordable"
+        ],
+        "cons": [
+            "Limited cargo space",
+            "Small rear seats",
+            "Modest performance",
+            "Average build quality",
+            "Highway noise"
+        ]
+    },
+    {
+        "brand": "Ford",
+        "make": "Ka",
+        "year": 2017,
+        "cm3": 1242,
+        "price": 7000,
+        "km": 70000,
+        "description": "The Ford Ka is a practical and efficient city car that offers great value for money and easy maneuverability.",
+        "pros": [
+            "Compact size",
+            "Good fuel economy",
+            "Affordable price",
+            "Easy to park",
+            "Simple design"
+        ],
+        "cons": [
+            "Limited cargo space",
+            "Small rear seats",
+            "Modest performance",
+            "Average build quality",
+            "Highway noise"
+        ]
+    },
+    {
+        "brand": "Fiat",
+        "make": "500L",
+        "year": 2018,
+        "cm3": 1368,
+        "price": 15000,
+        "km": 40000,
+        "description": "The Fiat 500L is a practical and spacious compact MPV that offers great value for money and a touch of Italian style.",
+        "pros": [
+            "Spacious interior",
+            "Good fuel economy",
+            "Stylish design",
+            "Comfortable ride",
+            "Affordable"
+        ],
+        "cons": [
+            "Limited cargo space",
+            "Average performance",
+            "Basic interior materials",
+            "Firm suspension",
+            "Highway noise"
+        ]
+    }
+]
