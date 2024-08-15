@@ -1,10 +1,10 @@
-from typing import Annotated
-
-from fastapi import FastAPI, Header
+from fastapi import FastAPI, File, Form, UploadFile
 
 app = FastAPI()
 
 
-@app.get("/headers")
-async def read_headers(user_agent: Annotated[str | None, Header()] = None):
-    return {"User-Agent": user_agent}
+@app.post("/upload")
+async def upload(
+    file: UploadFile = File(...), brand: str = Form(...), model: str = Form(...)
+):
+    return {"brand": brand, "model": model, "file_name": file.filename}

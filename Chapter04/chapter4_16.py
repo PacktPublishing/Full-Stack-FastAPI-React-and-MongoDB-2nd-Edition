@@ -1,18 +1,9 @@
-from typing import Annotated
-from fastapi import Depends, FastAPI
+from fastapi import FastAPI
+
+from routers.cars import router as cars_router
+from routers.user import router as users_router
 
 app = FastAPI()
 
-
-async def pagination(q: str | None = None, skip: int = 0, limit: int = 100):
-    return {"q": q, "skip": skip, "limit": limit}
-
-
-@app.get("/cars/")
-async def read_items(commons: Annotated[dict, Depends(pagination)]):
-    return commons
-
-
-@app.get("/users/")
-async def read_users(commons: Annotated[dict, Depends(pagination)]):
-    return commons
+app.include_router(cars_router, prefix="/cars", tags=["cars"])
+app.include_router(users_router, prefix="/users", tags=["users"])

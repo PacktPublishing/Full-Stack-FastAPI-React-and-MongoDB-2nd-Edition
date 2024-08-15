@@ -1,14 +1,8 @@
-import shutil
-
-from fastapi import FastAPI, File, Form, UploadFile
+from fastapi import FastAPI, status
 
 app = FastAPI()
 
 
-@app.post("/upload")
-async def upload(
-    picture: UploadFile = File(...), brand: str = Form(...), model: str = Form(...)
-):
-    with open("saved_file.png", "wb") as buffer:
-        shutil.copyfileobj(picture.file, buffer)
-    return {"brand": brand, "model": model, "file_name": picture.filename}
+@app.get("/", status_code=status.HTTP_208_ALREADY_REPORTED)
+async def raw_fa_response():
+    return {"message": "fastapi response"}

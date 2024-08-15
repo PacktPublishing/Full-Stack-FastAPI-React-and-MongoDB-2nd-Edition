@@ -10,4 +10,4 @@ async def root():
 
 @app.post("/")
 async def post_root():
-    return {"message": "Post request success"}
+    return {"message": "Post request success!"}

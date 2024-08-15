@@ -1,3 +1,5 @@
+import shutil
+
 from fastapi import FastAPI, File, Form, UploadFile
 
 app = FastAPI()
@@ -5,6 +7,8 @@ app = FastAPI()
 
 @app.post("/upload")
 async def upload(
-    file: UploadFile = File(...), brand: str = Form(...), model: str = Form(...)
+    picture: UploadFile = File(...), brand: str = Form(...), model: str = Form(...)
 ):
-    return {"brand": brand, "model": model, "file_name": file.filename}
+    with open("saved_file.png", "wb") as buffer:
+        shutil.copyfileobj(picture.file, buffer)
+    return {"brand": brand, "model": model, "file_name": picture.filename}
