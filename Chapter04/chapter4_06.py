@@ -1,5 +1,4 @@
 from typing import Dict
-
 from fastapi import Body, FastAPI
 
 app = FastAPI()
