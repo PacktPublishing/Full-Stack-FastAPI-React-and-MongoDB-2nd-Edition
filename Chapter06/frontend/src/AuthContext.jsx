@@ -83,7 +83,7 @@ export const AuthProvider = ({ children }) => {
 
     const logout = () => {
         setUser(null);
-        setJwt(null);
+        setJwt('');
         localStorage.removeItem('jwt');
         setMessage('Logout successful');
     };

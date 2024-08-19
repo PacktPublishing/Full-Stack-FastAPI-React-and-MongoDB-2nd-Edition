@@ -13,7 +13,7 @@ export const AuthProvider = ({ children }) => {
 
     useEffect(() => {
 
-        const storedJwt = localStorage.getItem('jwt');
+        const storedJwt = localStorage.getItem('jwt') || null;
         if (storedJwt) {
             setJwt(storedJwt);
             fetch(`${import.meta.env.VITE_API_URL}/users/me`, {
