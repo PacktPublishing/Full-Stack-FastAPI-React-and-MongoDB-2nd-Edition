@@ -13,14 +13,6 @@ export const getSession = async () => {
 
 }
 
-export const logout = async () => {
-
-    const session = await getSession()
-    session.destroy()
-    redirect("/")
-
-}
-
 export const login = async (status, formData) => {
 
     const username = formData.get("username")
@@ -53,6 +45,15 @@ export const login = async (status, formData) => {
 
         return { error: data.detail }
     }
+
+}
+
+
+export const logout = async () => {
+
+    const session = await getSession()
+    session.destroy()
+    redirect("/")
 
 }
 

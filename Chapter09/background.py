@@ -74,7 +74,7 @@ async def create_description(brand, make, year, picture_url):
         params: resend.Emails.SendParams = {
             "from": "FARM Cars  <onboarding@resend.dev>",
             "to": ["aleksendric@gmail.com"],
-            "subject": "Car information updated",
+            "subject": "New car on sale!",
             "html": generate_email(),
         }
 
